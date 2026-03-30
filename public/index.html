@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Hautgesund Kochen</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Login Page -->
+    <div id="page-login" class="page" style="display:none">
+      <div class="login-container">
+        <h1>Hautgesund Kochen</h1>
+        <p class="login-subtitle">Antientzuendliche Rezepte fuer reine Haut</p>
+        <form id="login-form">
+          <input type="password" id="login-password" placeholder="Passwort" autocomplete="current-password" required>
+          <button type="submit" class="btn btn-primary" id="login-btn">Einloggen</button>
+        </form>
+        <p id="login-error" class="error" style="display:none"></p>
+      </div>
+    </div>
+
+    <!-- Setup Page (first time) -->
+    <div id="page-setup" class="page" style="display:none">
+      <div class="login-container">
+        <h1>Willkommen!</h1>
+        <p class="login-subtitle">Lege ein Passwort fest, um deine Daten zu schuetzen.</p>
+        <form id="setup-form">
+          <input type="password" id="setup-password" placeholder="Neues Passwort" autocomplete="new-password" required minlength="4">
+          <input type="password" id="setup-password2" placeholder="Passwort wiederholen" autocomplete="new-password" required minlength="4">
+          <button type="submit" class="btn btn-primary">Passwort setzen</button>
+        </form>
+        <p id="setup-error" class="error" style="display:none"></p>
+      </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="page-main" class="page" style="display:none">
+      <header id="app-header">
+        <h1 id="header-title">Wochenplan</h1>
+        <button id="logout-btn" title="Abmelden" style="margin-left:auto;background:none;border:none;font-size:0.8rem;color:var(--text-secondary);cursor:pointer">Abmelden</button>
+      </header>
+
+      <main id="content"></main>
+
+      <nav id="bottom-nav">
+        <a href="#plan" class="nav-item active" data-page="plan">
+          <span class="nav-icon">&#x1F4C5;</span>
+          <span class="nav-label">Wochenplan</span>
+        </a>
+        <a href="#recipes" class="nav-item" data-page="recipes">
+          <span class="nav-icon">&#x1F4D6;</span>
+          <span class="nav-label">Rezepte</span>
+        </a>
+        <a href="#shopping" class="nav-item" data-page="shopping">
+          <span class="nav-icon">&#x1F6D2;</span>
+          <span class="nav-label">Einkaufsliste</span>
+        </a>
+        <a href="#learn" class="nav-item" data-page="learn">
+          <span class="nav-icon">&#x1F4A1;</span>
+          <span class="nav-label">Lernen</span>
+        </a>
+      </nav>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

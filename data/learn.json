@@ -1,0 +1,309 @@
+{
+  "disclaimer": "Diese Informationen dienen der Aufklaerung und ersetzen keine aerztliche Beratung. Verschreibungspflichtige Behandlungen und Hormonwerte immer mit Dermatologen/Endokrinologen besprechen.",
+  "sections": [
+    {
+      "id": "actionplan",
+      "title": "Aktionsplan",
+      "subtitle": "Priorisierte Schritte nach Evidenz und Aufwand",
+      "items": [
+        {
+          "title": "Stufe 1 — Sofort umsetzen",
+          "subtitle": "Niedrige Huerde, starke Evidenz",
+          "content": [
+            { "action": "Sonnenschutz taeglich (SPF 30-50, nicht-komedogen)", "evidence": "sehr stark", "effort": "minimal" },
+            { "action": "Zink 30 mg/Tag (Picolinat oder Bisglycinat)", "evidence": "stark", "effort": "minimal" },
+            { "action": "Omega-3 Algenoel (1000+ mg EPA+DHA/Tag)", "evidence": "stark", "effort": "minimal" },
+            { "action": "Kissenbezug alle 2-3 Tage wechseln", "evidence": "schwach-mittel", "effort": "minimal" },
+            { "action": "Schlafhygiene verbessern (7-9 Std., regelmaessig)", "evidence": "mittel-stark", "effort": "mittel" }
+          ]
+        },
+        {
+          "title": "Stufe 2 — Binnen 2 Wochen",
+          "subtitle": "Erfordert Produkte/Planung",
+          "content": [
+            { "action": "Hautpflegeroutine aufbauen: Reiniger + Niacinamid + Feuchtigkeitspflege + SPF (morgens) / Reiniger + Retinoid (abends)", "evidence": "sehr stark", "effort": "mittel" },
+            { "action": "Azelainsaeure 15-20% integrieren", "evidence": "stark", "effort": "mittel" },
+            { "action": "Probiotika optimieren — auf L. rhamnosus SP1 achten", "evidence": "mittel-stark", "effort": "mittel" },
+            { "action": "Vitamin-D-Spiegel testen lassen", "evidence": "mittel-stark", "effort": "mittel" }
+          ]
+        },
+        {
+          "title": "Stufe 3 — Binnen 1 Monat",
+          "subtitle": "Erfordert Arztbesuch",
+          "content": [
+            { "action": "Hormonprofil erstellen lassen (freies Testosteron, SHBG, DHEA-S, Insulin, LH/FSH)", "evidence": "sehr stark", "effort": "hoch" },
+            { "action": "Spironolacton mit Hautaerztin besprechen", "evidence": "stark", "effort": "hoch" },
+            { "action": "Stress-Management starten: Yoga oder Meditation 15-20 Min./Tag", "evidence": "mittel-stark", "effort": "mittel" }
+          ]
+        },
+        {
+          "title": "Stufe 4 — Laufend optimieren",
+          "subtitle": "Bereits begonnene Massnahmen",
+          "content": [
+            { "action": "Inositol: Dosierung auf 4000 mg/Tag pruefen (2x 2000 mg), idealerweise 40:1 Myo:D-Chiro", "evidence": "mittel", "effort": "minimal" },
+            { "action": "DIM 100-200 mg/Tag als optionale Ergaenzung", "evidence": "schwach-mittel", "effort": "niedrig" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "supplements",
+      "title": "Supplements",
+      "subtitle": "Nahrungsergaenzungsmittel mit wissenschaftlicher Evidenz",
+      "items": [
+        {
+          "title": "Zink",
+          "evidence": "stark",
+          "dosage": "30 mg/Tag (Picolinat oder Bisglycinat)",
+          "timing": "Ergebnisse nach 8-12 Wochen",
+          "summary": "Kann entzuendliche Pusteln um bis zu 50% reduzieren. Akne-Patienten haben signifikant niedrigere Zink-Spiegel (Meta-Analyse, 12 Studien).",
+          "details": "Beste Formen: Zink-Picolinat (hoechste Bioverfuegbarkeit) oder Zink-Bisglycinat (43,4% bessere Absorption als Gluconat, sehr magenfreundlich). Maximal 50 mg/Tag. Ab 40 mg/Tag: 2 mg Kupfer taeglich ergaenzen, um Kupfermangel zu verhindern.",
+          "sources": ["Meta-Analyse: PubMed 32860489", "PMC4120804", "Kazeminejad et al. 2024, J Cosmetic Dermatology"]
+        },
+        {
+          "title": "Omega-3 Algenoel",
+          "evidence": "stark",
+          "dosage": "1000+ mg EPA+DHA taeglich",
+          "timing": "Ergebnisse nach 8-16 Wochen",
+          "summary": "Muenchner Studie (2024, 60 Patienten): 98,3% hatten EPA/DHA-Mangel. Objektive Akne-Verbesserung nach 16 Wochen Algenoel-Supplementierung.",
+          "details": "Algenoel statt Fischoel: pflanzlich, keine Schwermetalle, gleiche Wirkung. Woche 1-8: 600 mg DHA + 300 mg EPA. Ab Woche 8: 800 mg DHA + 400 mg EPA. EPA und DHA reduzieren pro-inflammatorische Zytokine und IGF-1.",
+          "sources": ["Guertler et al. 2024: PubMed 38982829", "PMC11050840", "PMC3543297"]
+        },
+        {
+          "title": "Vitamin D",
+          "evidence": "mittel-stark",
+          "dosage": "2.000-4.000 IE D3/Tag (nach Bluttest)",
+          "timing": "Ergebnisse nach 8-12 Wochen",
+          "summary": "Vitamin-D-Mangel ist bei Akne-Patienten 2,97x haeufiger. 48,8% der Akne-Patienten haben einen Mangel vs. 22,5% bei Gesunden.",
+          "details": "Erst Blutwert testen lassen (25-OH-Vitamin D). Zielwert: 40-60 ng/ml. Immer D3 + K2 kombinieren (fuer Kalzium-Metabolismus). In einem RCT fuehrte Supplementierung zu signifikanter Akne-Verbesserung.",
+          "sources": ["Meta-Analyse: PubMed 34348293", "PubMed 33690970", "PLOS ONE 10.1371/journal.pone.0161162"]
+        },
+        {
+          "title": "Probiotika",
+          "evidence": "mittel-stark",
+          "dosage": "Mind. 10 Mrd. KBE/Tag, Multi-Strain",
+          "timing": "Ergebnisse nach 8-12 Wochen",
+          "summary": "L. rhamnosus SP1: 50% Verbesserung vs. 29% Placebo in RCT (2024). Normalisiert Insulin-Signalwege in der Haut.",
+          "details": "Beste Staemme: L. rhamnosus SP1 (staerkste Akne-Evidenz), L. rhamnosus GG, Bifidobacterium longum BB536, L. acidophilus. Vielversprechend: L. plantarum, L. reuteri, S. thermophilus (erhoet Ceramid-Produktion). Multi-Strain-Produkte mit Lactobacillus + Bifidobacterium bevorzugen.",
+          "sources": ["L. rhamnosus SP1 RCT: PMC11110809", "PubMed 27596801", "PMC9318165"]
+        },
+        {
+          "title": "Inositol (Myo-Inositol)",
+          "evidence": "mittel",
+          "dosage": "4.000 mg/Tag (2x 2.000 mg)",
+          "timing": "Ergebnisse nach 3-6 Monaten",
+          "summary": "Review 2024: 'Sichere und wirksame adjuvante Therapie fuer Akne'. Am staerksten bei PCOS oder Insulinresistenz.",
+          "details": "Optimales Verhaeltnis: 40:1 Myo-Inositol zu D-Chiro-Inositol. Wirkt ueber Insulinempfindlichkeit und Senkung der Androgenspiegel. Gut vertraeglich. Einschraenkung: Evidenz fuer Nicht-PCOS-Akne ist begrenzt.",
+          "sources": ["Systematic Review: JID joid.q21hzh02", "PubMed 19551544", "PubMed 38163998"]
+        },
+        {
+          "title": "Niacinamid oral (Vitamin B3)",
+          "evidence": "mittel",
+          "dosage": "500-750 mg/Tag",
+          "timing": "Ergebnisse nach 4-8 Wochen",
+          "summary": "Wirkt entzuendungshemmend und reguliert die Talgproduktion. Sicher bis zu 3 g/Tag.",
+          "details": "Nicht verwechseln mit Niacin (Nikotinsaeure) — Niacinamid ist die 'Flush-freie' Form ohne Hautroeungen als Nebenwirkung.",
+          "sources": ["PubMed 28220628", "MDPI 1648-9144/61/2/254"]
+        },
+        {
+          "title": "DIM (Diindolylmethan)",
+          "evidence": "schwach-mittel",
+          "dosage": "100-200 mg/Tag, mit Mahlzeit",
+          "timing": "Ergebnisse nach 2-3 Monaten",
+          "summary": "Entsteht beim Verdauen von Kreuzblutlern (Brokkoli). 30% Reduktion entzuendlicher Laesionen in einer 12-Wochen-Studie.",
+          "details": "Beeinflusst Oestrogen-Metabolismus, hemmt DHT-Bindung an Androgenrezeptoren. Vorsicht: Kann Wirksamkeit oraler Kontrazeptiva verringern. Nicht bei Schwangerschaftswunsch oder Hormontherapie ohne aerztliche Beratung.",
+          "sources": ["Healthline: DIM Supplements", "Health Highroad: DIM Estrogen"]
+        }
+      ]
+    },
+    {
+      "id": "skincare",
+      "title": "Hautpflege",
+      "subtitle": "Wissenschaftlich belegte Wirkstoffe und Routinen",
+      "items": [
+        {
+          "title": "Topische Retinoide — Goldstandard",
+          "evidence": "sehr stark",
+          "summary": "Laut AAD-Leitlinien 2024 die 'Grundlage der Akne-Behandlung'. Komedolytisch, entzuendungshemmend, verbessert Hyperpigmentierung.",
+          "details": "Verschreibungspflichtig: Tretinoin (0,01-0,1%), Adapalen (0,1-0,3%). Adapalen 0,1% (Differin) teils OTC erhaeltlich. OTC: Retinol 0,1-1% (schwaecher). Anwendung: Abends, nach Reinigung, duenn auftragen. Langsam einschleichen (erst jeden 3. Tag, dann steigern). Sonnenschutz am Tag ist Pflicht.",
+          "sources": ["AAD Guidelines 2024: PubMed 38300170", "PubMed 30674002"]
+        },
+        {
+          "title": "Benzoylperoxid (BPO)",
+          "evidence": "sehr stark",
+          "summary": "2,5% ist gleich wirksam wie 10%, aber mit weniger Reizung. Antibakteriell ohne Resistenzentwicklung.",
+          "details": "Starke Empfehlung AAD 2024. BPO + Retinoid zeigte in 3 RCTs signifikant hoehere Erfolgsraten. Anwendung: Morgens oder als Waschbehandlung (2-3 Min. einwirken, abspuelen). Achtung: Bleicht Textilien!",
+          "sources": ["AAD Guidelines 2024: PubMed 38300170"]
+        },
+        {
+          "title": "Azelainsaeure",
+          "evidence": "stark",
+          "summary": "15-20%: 84% zeigten Verbesserung, 63% erreichten 'Clear/Almost Clear'. Wirkt auch gegen Hyperpigmentierung.",
+          "details": "In 16 Studien wirksamer als Placebo, vergleichbar mit Retinoiden bei teils besserer Vertraeglichkeit. Doppelter Nutzen: Akne + postinflammatorische Hyperpigmentierung. Auch in Schwangerschaft sicher (Kategorie B). Gute Langzeitwirksamkeit belegt.",
+          "sources": ["Systematic Review: PubMed 37550898", "PMC11557742", "PMC9975535"]
+        },
+        {
+          "title": "Niacinamid topisch",
+          "evidence": "stark",
+          "summary": "4-5%: Reduziert Talgproduktion, Roetungen und Porengroesse. Gut kombinierbar mit allen Wirkstoffen.",
+          "details": "2,5% BPO + 5% Niacinamid war in einem RCT 2024 wirksamer als BPO allein. Zusaetzlich: staerkt die Hautbarriere.",
+          "sources": ["RCT 2024: PubMed 38299457", "PMC11047333"]
+        },
+        {
+          "title": "Salicylsaeure (BHA)",
+          "evidence": "mittel",
+          "summary": "0,5-2%: Loest Verstopfungen in den Poren. Bedingte Empfehlung AAD 2024.",
+          "details": "Sanfter als BPO, gut fuer empfindliche Haut. Am besten als Reinigungsprodukt oder Leave-on-Serum.",
+          "sources": ["AAD Guidelines 2024: PubMed 38300170"]
+        },
+        {
+          "title": "Morgenroutine",
+          "evidence": "",
+          "summary": "1) Sanfter Gelreiniger (pH 5,5) → 2) Niacinamid 4-5% oder Azelainsaeure → 3) Oelfreie Feuchtigkeitscreme → 4) SPF 30-50",
+          "details": "Weniger ist mehr: Maximal 1-2 Wirkstoffe pro Anwendung. Nicht-komedogene Produkte waehlen (kein Kokosoel, kein Lanolin).",
+          "sources": []
+        },
+        {
+          "title": "Abendroutine",
+          "evidence": "",
+          "summary": "1) Reinigung (ggf. Double Cleanse) → 2) Retinoid oder BPO 2,5% → 3) Feuchtigkeitscreme",
+          "details": "Retinoide und BPO an WECHSELNDEN Abenden, nicht gleichzeitig (Reizung). Neue Produkte langsam einschleichen: erst jeden 3. Tag, dann steigern. Geduld: Mindestens 6-8 Wochen pro Produkt.",
+          "sources": []
+        },
+        {
+          "title": "Was vermeiden",
+          "evidence": "",
+          "summary": "Alkoholhaltige Toner, physische Peelings/Scrubs, komedogene Inhaltsstoffe, zu haeufiges Waschen.",
+          "details": "Max. 2x taeglich waschen. Kein Kokosoel, Lanolin oder bestimmte Silikone im Gesicht. Nicht am Gesicht herumfassen. Nie Pickel ausdruecken. Nicht zu viele Produkte gleichzeitig einfuehren.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "hormones",
+      "title": "Hormone",
+      "subtitle": "Hormonelle Akne verstehen und behandeln",
+      "items": [
+        {
+          "title": "Hormonelle Akne bei Frauen",
+          "evidence": "sehr stark",
+          "summary": "~50% der Frauen in den 20ern haben hormonelle Akne. Selbst bei normalen Blutwerten koennen Hautrezeptoren ueberempfindlich reagieren.",
+          "details": "Die Hautempfindlichkeit gegenueber normalen Androgenspiegeln ist oft der Hauptfaktor. Routine-Hormontests koennen NORMAL ausfallen! Deshalb immer freies Testosteron + SHBG mitbestimmen lassen — nicht nur Gesamt-Testosteron.",
+          "sources": ["PMC3969667"]
+        },
+        {
+          "title": "Wichtige Blutwerte",
+          "evidence": "sehr stark",
+          "summary": "Blutabnahme in den 2 Wochen VOR der Menstruation. Die wichtigsten: Freies Testosteron, SHBG, Vitamin D, Zink.",
+          "details": "Vollstaendiges Profil: Freies Testosteron (wichtiger als Gesamt!), SHBG, DHEA-S, LH/FSH-Verhaeltnis, Nuechtern-Insulin + Glukose (HOMA-IR), 17-OH-Progesteron, Prolaktin, AMH (PCOS-Marker), 25-OH-Vitamin D, TSH/fT3/fT4 (Schilddruese), Serum-Zink.",
+          "sources": ["PMC3969667", "AAD Guidelines 2024"]
+        },
+        {
+          "title": "Spironolacton",
+          "evidence": "stark",
+          "summary": "Wirksamste Anti-Androgen-Therapie: 82% Verbesserung vs. 63% Placebo im SAFA-Trial. Nur fuer Frauen.",
+          "details": "50-100 mg/Tag. Wirkungseintritt: 3-6 Monate. Nebenwirkungen: Reversible Menstruationsunregelmaessigkeiten (48%). Verschreibungspflichtig — aerztliche Begleitung noetig. Kalium-Monitoring bei jungen gesunden Frauen nicht zwingend.",
+          "sources": ["SAFA Trial: PubMed 37192767", "PMC5440451", "PMC12359290"]
+        },
+        {
+          "title": "Anti-Androgene Pille",
+          "evidence": "stark",
+          "summary": "Kombinationspraeparate mit Dienogest, Chlormadinonacetat oder Drospirenon wirken ueber erhoehtes SHBG.",
+          "details": "Erhoehtes SHBG bindet mehr Testosteron → weniger freie Androgene → weniger Talgproduktion.",
+          "sources": ["PMC3969667"]
+        },
+        {
+          "title": "Spearmint-Tee",
+          "evidence": "schwach-mittel",
+          "summary": "2 Tassen taeglich senkten in einer RCT freies Testosteron signifikant. Einfache, natuerliche Massnahme.",
+          "details": "Kleine Studie, aber kein Risiko beim Ausprobieren. Ergaenzend zu anderen Massnahmen.",
+          "sources": ["PMC3969667"]
+        }
+      ]
+    },
+    {
+      "id": "lifestyle",
+      "title": "Lifestyle",
+      "subtitle": "Schlaf, Stress, Sport und Hygiene",
+      "items": [
+        {
+          "title": "Schlaf",
+          "evidence": "mittel-stark",
+          "summary": "75,2% der Akne-Patienten identifizieren schlechte Schlafqualitaet als verschlimmernden Faktor. 7-9 Stunden anstreben.",
+          "details": "Mechanismen: Schlechter Schlaf senkt Melatonin → erhoehte Androgen-Synthese → mehr Talg. Gestoerte zirkadianer Rhythmen → hormonelle Dysregulation. Erhoehtes Cortisol bei Schlafmangel → mehr Entzuendung. Tipps: Regelmaessige Zeiten, Blaulicht 1-2h vorher vermeiden, kuehles Schlafzimmer (18-20 Grad).",
+          "sources": ["PMC7445853", "PMC12615111"]
+        },
+        {
+          "title": "Stress-Management",
+          "evidence": "mittel-stark",
+          "summary": "Signifikante Korrelation zwischen Stressniveau und Akne-Schweregrad. Cortisol erhoet Talgdruesen-Aktivitaet.",
+          "details": "Evidenzbasierte Methoden: Yoga (stark — alle Teilnehmer nach 3 Monaten nur noch leichte Akne), Meditation (reduziert Cortisol um 15-25%), Progressive Muskelentspannung, 20 Min. in der Natur (senkt Cortisol messbar), regelmaessiger Sport.",
+          "sources": ["PubMed 17340019", "ResearchGate: Stress-Induced Mechanisms in Acne"]
+        },
+        {
+          "title": "Sport",
+          "evidence": "mittel",
+          "summary": "Schweiss verschlechtert Akne NICHT (RCT). Auch der Zeitpunkt des Duschens (1h vs. 4h) hatte keinen signifikanten Einfluss.",
+          "details": "Sport ist insgesamt POSITIV: reduziert Stresshormone, verbessert Durchblutung, liefert Sauerstoff zu Hautzellen. Empfehlungen: Regelmaessig trainieren, nach dem Sport Gesicht reinigen, feuchte Sportkleidung zeitnah wechseln, kein Make-up beim Sport.",
+          "sources": ["RCT: JAAD S0190-9622(04)02799-9", "PMC12417714"]
+        },
+        {
+          "title": "Kissenbezug und Hygiene",
+          "evidence": "schwach-mittel",
+          "summary": "Bakterien uebertragen sich nachweislich vom Gesicht auf Kissenbezuege waehrend 7-9 Stunden Schlaf.",
+          "details": "Kissenbezug alle 2-3 Tage wechseln, Heisswaesche nutzen. Seidenkissenbezuege in Betracht ziehen (weniger Reibung, weniger Oelaufnahme). Eigenes Gesichtshandtuch verwenden. Alternative: Einmal-Gesichtstuecher zum Abtupfen.",
+          "sources": ["Pediatric Dermatology 2019, 156 Patienten"]
+        }
+      ]
+    },
+    {
+      "id": "gut",
+      "title": "Darmmikrobiom",
+      "subtitle": "Die Darm-Haut-Achse verstehen",
+      "items": [
+        {
+          "title": "Die Darm-Haut-Achse",
+          "evidence": "mittel-stark",
+          "summary": "Ein unausgewogenes Darm-Mikrobiom traegt ueber die Gut-Skin-Axis direkt zu Hautentzuendungen bei.",
+          "details": "Darmbakterien produzieren kurzkettige Fettsaeuren (SCFAs: Butyrat, Propionat, Acetat), die das Haut-Immunsystem direkt beeinflussen. Orale Probiotika stellen das Gleichgewicht wieder her und reduzieren systemische Entzuendungen. Systematisches Review 2026: Mikrobiom-modulierende Therapien sind sicher und zeigen 'klinisch bedeutsame' Laesionsreduktionen.",
+          "sources": ["Frontiers in Microbiology 2018", "Springer: Dermatology and Therapy 2026"]
+        },
+        {
+          "title": "Beste Probiotika-Staemme",
+          "evidence": "mittel-stark",
+          "summary": "Prioritaet 1: L. rhamnosus SP1 (RCT-belegt), L. rhamnosus GG. Prioritaet 2: B. longum BB536, L. acidophilus, L. plantarum.",
+          "details": "Prioritaet 3 (vielversprechend): L. reuteri (Immunmodulation), B. bifidum (Darmbarriere), S. thermophilus (erhoet Ceramid-Produktion der Haut). Empfehlung: Multi-Strain-Produkt mit mind. 10 Mrd. KBE/Tag, Lactobacillus + Bifidobacterium, mind. 8-12 Wochen einnehmen.",
+          "sources": ["PMC11110809", "PMC9318165", "PMC8953587"]
+        },
+        {
+          "title": "Praebiotika",
+          "evidence": "schwach-mittel",
+          "summary": "Fuettern die guten Darmbakterien. Quellen: Inulin (Chicoree), Haferflocken, Linsen, Bohnen, Knoblauch.",
+          "details": "Praebiotika stimulieren selektiv nuetzliche Mikroorganismen im Darm. Empfohlene Quellen: Inulin, FOS (Fructooligosaccharide), GOS (Galaktooligosaccharide), Resistente Staerke. Die Evidenz fuer Praebiotika bei Akne waechst.",
+          "sources": ["Springer: Systematic Review 2026", "Medscape 2026"]
+        },
+        {
+          "title": "Fermentierte Lebensmittel",
+          "evidence": "mittel",
+          "summary": "Kimchi, Sauerkraut, Kefir, Miso, Tempeh, Kombucha — alle unterstuetzen die Mikrobiom-Diversitaet.",
+          "details": "Stanford-Studie: 10 Wochen fermentierte Lebensmittel erhoehten die Mikrobiom-Diversitaet und senkten Entzuendungsmarker. Miso NIEMALS kochen (zerstoert Probiotika). Tempeh: fermentiert + hochwertiges Protein. Joghurt mit Lactoferrin reduzierte in einer Studie Akne-Schweregrad und Talggehalt signifikant.",
+          "sources": ["Stanford Fermented Foods Study", "PMC9318165", "PMC6678709"]
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "title": "Gesamtstrategie",
+      "subtitle": "Alle Saeulen auf einen Blick",
+      "items": [
+        {
+          "title": "Die 5 Saeulen",
+          "evidence": "",
+          "summary": "Innen + Aussen + Hormone + Lifestyle + Geduld",
+          "details": "INNEN: Zink + Omega-3 + Vitamin D + Probiotika + Inositol. AUSSEN: Sanfter Reiniger + Niacinamid + Retinoid + Azelainsaeure + SPF. HORMONE: Blutbild + ggf. Spironolacton. LIFESTYLE: Schlaf + Stressmanagement + Sport + Kissenhygiene. GEDULD: Minimum 8-12 Wochen fuer jede neue Massnahme.",
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
