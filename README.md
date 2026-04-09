@@ -54,13 +54,7 @@ Logs: `./logs/pm2.log` und `./logs/error.log`
 
 ## Rezepte bearbeiten
 
-Die Rezepte liegen als Markdown-Dateien im Projektverzeichnis. Nach Aenderungen:
-
-```bash
-node convert-recipes.js
-```
-
-Das generiert `data/recipes.json` neu.
+Die Rezepte liegen direkt in `data/recipes.json`. Neue Rezepte oder Aenderungen koennen dort direkt vorgenommen werden.
 
 ## Projektstruktur
 
@@ -71,11 +65,10 @@ public/
   style.css            Styles
   app.js               Frontend-Logik
 data/
-  recipes.json         134 Rezepte (generiert)
+  recipes.json         134 Rezepte
   tips.json            79 Tipp-des-Tages-Eintraege
   learn.json           Lerninhalte
   userdata.json        Nutzerdaten (wird automatisch erstellt)
-convert-recipes.js     Markdown → JSON Konverter
 ecosystem.config.cjs   PM2-Konfiguration
 ```
 
