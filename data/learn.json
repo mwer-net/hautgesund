@@ -292,6 +292,62 @@
       ]
     },
     {
+      "id": "triggers",
+      "title": "Akne-Trigger",
+      "subtitle": "Nahrungsergaenzungsmittel und Substanzen, die Akne ausloesen oder verschlimmern koennen",
+      "items": [
+        {
+          "title": "Vitamin B12 (Cobalamin)",
+          "evidence": "stark",
+          "summary": "Vitamin-B12-Supplementierung kann Akne ausloesen. Eine UCLA-Studie zeigte den molekularen Mechanismus: B12 veraendert das Transkriptom der Hautbakterien P. acnes und foerdert die Produktion entzuendungsfoerdernder Porphyrine.",
+          "details": "B12-Supplementierung unterdrueckt die B12-Biosynthese-Gene in Propionibacterium acnes. Die Bakterien produzieren daraufhin vermehrt Porphyrine, die Entzuendungen in der Haut ausloesen. Besonders hoch dosierte B12-Injektionen (1.000+ mcg) sind betroffen, aber auch orale Supplements koennen bei empfindlichen Personen Akne ausloesen. Mehrere klinische Fallstudien dokumentieren akneiforme Eruptionen nach B12-Supplementierung. Die Akne bildet sich typischerweise nach Absetzen des Supplements zurueck. Wichtig: Wer B12 aus medizinischen Gruenden benoetigt (z.B. vegane Ernaehrung, perniziose Anaemie), sollte es nicht eigenmaechtg absetzen, sondern mit dem Arzt sprechen.",
+          "sources": ["Kang et al. 2015, Science Translational Medicine: PMC6049814", "Balta & Ozuguz 2014: PubMed 24346340", "Fallbericht: PMC11657059"]
+        },
+        {
+          "title": "Vitamin B6 (Pyridoxin)",
+          "evidence": "mittel",
+          "summary": "Hohe Dosen von Vitamin B6 koennen Akne ausloesen oder verschlimmern, besonders bei Frauen. Der genaue Mechanismus ist noch unklar.",
+          "details": "In einer klinischen Beobachtungsstudie (Braun-Falco & Lincke, 1976) entwickelten 14 Patienten unter B6- und/oder B12-Therapie eine Verschlechterung der Akne oder akneiforme Eruptionen — Frauen waren deutlich haeufiger betroffen. Ein Review von 2017 (Clinics in Dermatology) bestaetigte, dass sowohl B6 als auch B12 Akne ausloesen koennen. Betroffen sind vor allem hochdosierte Supplements, nicht die ueblichen Mengen in Lebensmitteln. Vorsicht bei Multivitaminpraeparaten mit hohen B6-Dosen (ueber 50 mg/Tag).",
+          "sources": ["Braun-Falco & Lincke 1976: PubMed 130553", "Dermatology Online Journal 2020: PubMed 32941710", "Clinics in Dermatology 2017"]
+        },
+        {
+          "title": "Jod (Iodid) — besonders Kelp/Algen-Supplements",
+          "evidence": "mittel-stark",
+          "summary": "Hohe Jod-Dosen aus Kelp- oder Algen-Supplements koennen monomorphe, entzuendliche Pusteln im Gesicht und am Oberkoerper ausloesen.",
+          "details": "Seit den 1970er-Jahren dokumentieren Fallberichte akneiforme Eruptionen durch hochdosierte Jodzufuhr. Eine Studie fand, dass der Jodgehalt in 17 Kelp-Supplements zwischen 45 und 57.000 Mikrogramm pro Kapsel schwankte — der Tagesbedarf liegt bei nur 150 mcg. Die Laesionen verschwinden typischerweise nach Absetzen des Supplements. Normale Jodzufuhr ueber Speisesalz (jodiertes Salz) und Lebensmittel gilt als unbedenklich. Vorsicht ist geboten bei: Kelp-Kapseln, hochdosierten Algen-Supplements, jodhaltigen Multivitaminen.",
+          "sources": ["Archives of Dermatology 1976", "Dermatology Online Journal 2020: PubMed 32941710", "JAAD 2006: S0190-9622(06)01198-4"]
+        },
+        {
+          "title": "Whey Protein (Molkenprotein)",
+          "evidence": "stark",
+          "summary": "Whey-Protein-Supplements erhoehen IGF-1 und Insulin, was die Talgproduktion steigert und Akne foerdern kann. Mehrere Studien belegen den Zusammenhang.",
+          "details": "Eine Fallkontrollstudie (PMC11022506) zeigte eine positive Assoziation zwischen Whey-Protein-Konsum und Akne-Risiko. Der insulinotrope Effekt von Whey erhoeht den Insulin- und IGF-1-Spiegel im Blut, was die Talgdruesen-Aktivitaet anregt und die Zellteilung der Keratinozyten beschleunigt. Typisch: papulonodulaere Akne am Rumpf und teils im Gesicht. Diskontinuierung fuehrt zur Verbesserung. Alternative: Pflanzliche Proteinpulver (Erbsen-, Reis-, Hanfprotein) sind nicht mit Akne assoziiert.",
+          "sources": ["PMC11022506 (Fallkontrollstudie 2024)", "PMC5350548", "JAAD International: Systematic Review S2666-3287(22)00028-1"]
+        },
+        {
+          "title": "Biotin (Vitamin B7/H)",
+          "evidence": "schwach",
+          "summary": "Anekdotische Berichte existieren, aber keine kontrollierten Studien bestaetigen, dass Biotin Akne verursacht. Eine moegliche Erklaerung ist die Interferenz mit Vitamin B5.",
+          "details": "Die Theorie: Biotin und Pantothensaeure (B5) teilen sich den gleichen Aufnahmeweg im Darm. Hochdosierte Biotin-Supplements (5.000-10.000 mcg, wie sie fuer Haare/Naegel vermarktet werden) koennten theoretisch die B5-Aufnahme stoeren, was die Talgproduktion erhoehen koennte. Ausserdem koennte erhoehte Keratin-Produktion die Poren verstopfen. Beide Theorien sind wissenschaftlich nicht bewiesen. Wer nach Biotin-Einnahme Akne bemerkt, sollte das Supplement probeweise absetzen und beobachten.",
+          "sources": ["Healthline: Biotin and Acne Review", "PMC10404308"]
+        },
+        {
+          "title": "Anabole Steroide und 'Muskelaufbau-Supplements'",
+          "evidence": "sehr stark",
+          "summary": "Anabole androgene Steroide (AAS) sind einer der staerksten bekannten Akne-Trigger. Auch frei verkaeufliche 'Muskelaufbau-Supplements' koennen mit AAS kontaminiert sein.",
+          "details": "AAS erhoehen direkt die Androgenspiegel und damit die Talgproduktion massiv. AAS-induzierte Akne reicht von Acne papulopustulosa bis zu schwerer Acne conglobata und Acne fulminans. Selbst nach Absetzen kann die Akne Monate persistieren. Frei verkaeufliche Supplements fuer den Muskelaufbau oder 'Testosteron-Booster' koennen undeclared AAS enthalten. Diese Produkte sollten grundsaetzlich gemieden oder nur nach sorgfaeltiger Pruefung der Inhaltsstoffe verwendet werden.",
+          "sources": ["Dermatology Online Journal 2020: PubMed 32941710", "PMC4884775"]
+        },
+        {
+          "title": "Allgemeine Empfehlung",
+          "evidence": "",
+          "summary": "Vor der Einnahme von Nahrungsergaenzungsmitteln immer die Inhaltsstoffe pruefen. Akne durch Supplements bildet sich typischerweise nach Absetzen zurueck.",
+          "details": "Checkliste fuer Supplement-Etiketten: 1) Enthaelt es hochdosiertes B12 (>100 mcg)? 2) Enthaelt es hochdosiertes B6 (>50 mg)? 3) Enthaelt es Jod aus Kelp/Algen (>150 mcg)? 4) Enthaelt es Whey/Molkenprotein? 5) Enthaelt es Biotin (>2.500 mcg)? 6) Enthaelt es 'proprietary blends' ohne genaue Mengenangaben? Im Zweifel: Supplement dem Hautarzt zeigen. Supplements NIE eigenmaechtg absetzen, wenn sie aerztlich verordnet wurden.",
+          "sources": ["Dermatology Online Journal 2020: PubMed 32941710"]
+        }
+      ]
+    },
+    {
       "id": "overview",
       "title": "Gesamtstrategie",
       "subtitle": "Alle Saeulen auf einen Blick",
