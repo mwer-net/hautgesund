@@ -1,0 +1,68 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - 'docs/**'
+      - '.gitignore'
+      - '.editorconfig'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-main
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_deploy
+          chmod 600 ~/.ssh/id_deploy
+          ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Deploy to server
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          ssh -i ~/.ssh/id_deploy -o StrictHostKeyChecking=yes \
+            "$DEPLOY_USER@$DEPLOY_HOST" 'bash -s' <<'REMOTE'
+            set -euo pipefail
+
+            export NVM_DIR="$HOME/.nvm"
+            # shellcheck disable=SC1091
+            [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+            export PATH="$HOME/.local/share/pnpm:$PATH"
+
+            cd "$HOME/sites/hautgesund.hirsch-familie.com/hautgesund"
+
+            echo ">>> Fetching latest main"
+            git fetch --prune origin
+            git reset --hard origin/main
+
+            echo ">>> Installing dependencies"
+            npm ci --omit=dev
+
+            echo ">>> Restarting PM2 process"
+            pm2 restart hautgesund-kochen --update-env
+
+            echo ">>> Health check"
+            for i in $(seq 1 15); do
+              if curl --fail --silent --show-error --max-time 2 \
+                  http://127.0.0.1:3000/api/health > /dev/null; then
+                echo "Health check passed after ${i}s"
+                exit 0
+              fi
+              sleep 1
+            done
+
+            echo "Health check failed after 15s — recent logs:"
+            pm2 logs hautgesund-kochen --lines 30 --nostream || true
+            exit 1
+          REMOTE

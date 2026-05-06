@@ -48,6 +48,11 @@ function auth(req, res, next) {
   next();
 }
 
+// --- Health endpoint ---
+app.get('/api/health', (req, res) => {
+  res.status(200).json({ ok: true });
+});
+
 // --- Auth endpoints ---
 app.get('/api/status', (req, res) => {
   const userData = loadUserData();
